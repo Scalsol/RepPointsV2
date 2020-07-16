@@ -2,11 +2,13 @@
 
 By Yihong Chen, [Zheng Zhang](https://stupidzz.github.io/), [Yue Cao](http://yue-cao.me/), [Liwei Wang](http://www.liweiwang-pku.com/), [Stephen Lin](https://scholar.google.com/citations?hl=zh-CN&user=c3PYmxUAAAAJ), [Han Hu](https://ancientmooner.github.io/).
 
-We provide code support and configuration files to reproduce the results in the paper for ["RepPoints V2: Verification Meets Regression for Object Detection"]() on COCO object detection. Our code is based on [mmdetection](https://github.com/open-mmlab/mmdetection). Besides, this repo also includes improved results for RepPoints V1, DenseRepPoints(V1,V2).
+We provide supported codes and configuration files to reproduce ["RepPoints V2: Verification Meets Regression for Object Detection"]() on COCO object detection and instance segmentation. Besides, this repo also includes improved results for [RepPoints V1](https://arxiv.org/pdf/1904.11490.pdf), [Dense RepPoints](https://arxiv.org/pdf/1912.11473.pdf) (V1,V2). Our code is adapted from [mmdetection](https://github.com/open-mmlab/mmdetection). 
 
 ## Introduction
 
-Verification and regression are two general methodologies for prediction in neural networks. Each has its own strengths: verification can be easier to infer accurately, and regression is more efficient and applicable to continuous target variables. Hence, it is often beneficial to carefully combine them to take advantage of their benefits. We introduce verification tasks into the localization prediction of RepPoints, producing **RepPoints v2**. RepPoints v2 also achieves 52.1 mAP on COCO test-dev by a single model. Moreover, we show that the proposed approach can more generally elevate other object detection frameworks as well as applications such as instance segmentation.
+Verification and regression are two general methodologies for prediction in neural networks. Each has its own strengths: verification can be easier to infer accurately, and regression is more efficient and applicable to continuous target variables. Hence, it is often beneficial to carefully combine them to take advantage of their benefits. We introduce verification tasks into the localization prediction of RepPoints, producing **RepPoints v2**. 
+
+RepPoints v2 aims for object detection and it achieves `52.1 bbox mAP` on COCO test-dev by a single model. Dense RepPoints v2 aims for instance segmentation and it achieves `45.9 bbox mAP` and `39.0 mask mAP` on COCO test-dev by using a ResNet-50 model.
 
 <div align="center">
   <img src="demo/reppointsv2.png" width="1178" />
