@@ -48,8 +48,8 @@ you can use more CUDA versions such as 9.0.
 c. Clone the mmdetection repository.
 
 ```shell
-git clone https://github.com/open-mmlab/mmdetection.git
-cd mmdetection
+git clone https://github.com/Scalsol/RepPointsV2.git
+cd RepPointsV2
 ```
 
 d. Install build requirements and then install mmdetection.
