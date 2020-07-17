@@ -24,16 +24,17 @@ class LoadRPDV2Annotations(object):
             See :class:`mmcv.fileio.FileClient` for details.
             Defaults to ``dict(backend='disk')``.
     """
-    def __init__(self):
+    def __init__(self, num_classes=80):
         super(LoadRPDV2Annotations, self).__init__()
+        self.num_classes = num_classes
 
     def _load_semantic_map_from_box(self, results):
         gt_bboxes = results['gt_bboxes']
         gt_labels = results['gt_labels']
         pad_shape = results['pad_shape']
         gt_areas = (gt_bboxes[:, 2] - gt_bboxes[:, 0]) * (gt_bboxes[:, 3] - gt_bboxes[:, 1])
-        gt_sem_map = np.zeros((80, int(pad_shape[0] / 8), int(pad_shape[1] / 8)), dtype=np.float32)
-        gt_sem_weights = np.zeros((80, int(pad_shape[0] / 8), int(pad_shape[1] / 8)), dtype=np.float32)
+        gt_sem_map = np.zeros((self.num_classes, int(pad_shape[0] / 8), int(pad_shape[1] / 8)), dtype=np.float32)
+        gt_sem_weights = np.zeros((self.num_classes, int(pad_shape[0] / 8), int(pad_shape[1] / 8)), dtype=np.float32)
 
         indexs = np.argsort(gt_areas)
         for ind in indexs[::-1]:
