@@ -2,7 +2,7 @@
 
 By Yihong Chen, [Zheng Zhang](https://stupidzz.github.io/), [Yue Cao](http://yue-cao.me/), [Liwei Wang](http://www.liweiwang-pku.com/), [Stephen Lin](https://scholar.google.com/citations?hl=zh-CN&user=c3PYmxUAAAAJ), [Han Hu](https://ancientmooner.github.io/).
 
-We provide supported codes and configuration files to reproduce ["RepPoints V2: Verification Meets Regression for Object Detection"]() on COCO object detection and instance segmentation. Besides, this repo also includes improved results for [RepPoints V1](https://arxiv.org/pdf/1904.11490.pdf), [Dense RepPoints](https://arxiv.org/pdf/1912.11473.pdf) (V1,V2). Our code is adapted from [mmdetection](https://github.com/open-mmlab/mmdetection). 
+We provide supported codes and configuration files to reproduce ["RepPoints V2: Verification Meets Regression for Object Detection"](https://arxiv.org/abs/2007.08508) on COCO object detection and instance segmentation. Besides, this repo also includes improved results for [RepPoints V1](https://arxiv.org/pdf/1904.11490.pdf), [Dense RepPoints](https://arxiv.org/pdf/1912.11473.pdf) (V1,V2). Our code is adapted from [mmdetection](https://github.com/open-mmlab/mmdetection). 
 
 ## Introduction
 
@@ -89,7 +89,7 @@ Dense_RepPoints_V1_R_50_FPN_GIoU_3x | Yes  | 44.5/45.0 | 37.4/38.0 | [Google](ht
 @article{chen2020reppointsv2,
   title={RepPoints V2: Verification Meets Regression for Object Detection},
   author={Chen, Yihong and Zhang, Zheng and Cao, Yue and Wang, Liwei and Lin, Stephen and Hu, Han},
-  journal={arXiv preprint arXiv:2077:77777},
+  journal={arXiv preprint arXiv:2007.08508},
   year={2020}
 }
 
