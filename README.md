@@ -4,7 +4,7 @@ By [Yihong Chen](https://scalsol.github.io), [Zheng Zhang](https://stupidzz.gith
 
 We provide supported codes and configuration files to reproduce ["RepPoints V2: Verification Meets Regression for Object Detection"](https://arxiv.org/abs/2007.08508) on COCO object detection and instance segmentation. Besides, this repo also includes improved results for [RepPoints V1](https://arxiv.org/pdf/1904.11490.pdf), [Dense RepPoints](https://arxiv.org/pdf/1912.11473.pdf) (V1,V2). Our code is adapted from [mmdetection](https://github.com/open-mmlab/mmdetection). 
 
-Our paper got accepted to the NeurIPS 202 conference!
+Our paper has been accepted to the NeurIPS 2020!
 
 ## Introduction
 
