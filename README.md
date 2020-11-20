@@ -1,6 +1,6 @@
 # RepPoints V2: Verification Meets Regression for Object Detection
 
-By Yihong Chen, [Zheng Zhang](https://stupidzz.github.io/), [Yue Cao](http://yue-cao.me/), [Liwei Wang](http://www.liweiwang-pku.com/), [Stephen Lin](https://scholar.google.com/citations?hl=zh-CN&user=c3PYmxUAAAAJ), [Han Hu](https://ancientmooner.github.io/).
+By [Yihong Chen](https://scalsol.github.io), [Zheng Zhang](https://stupidzz.github.io/), [Yue Cao](http://yue-cao.me/), [Liwei Wang](http://www.liweiwang-pku.com/), [Stephen Lin](https://scholar.google.com/citations?hl=zh-CN&user=c3PYmxUAAAAJ), [Han Hu](https://ancientmooner.github.io/).
 
 We provide supported codes and configuration files to reproduce ["RepPoints V2: Verification Meets Regression for Object Detection"](https://arxiv.org/abs/2007.08508) on COCO object detection and instance segmentation. Besides, this repo also includes improved results for [RepPoints V1](https://arxiv.org/pdf/1904.11490.pdf), [Dense RepPoints](https://arxiv.org/pdf/1912.11473.pdf) (V1,V2). Our code is adapted from [mmdetection](https://github.com/open-mmlab/mmdetection). 
 
